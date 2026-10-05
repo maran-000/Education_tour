@@ -1,0 +1,95 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf2f8;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* Header section */
+header {
+    background-color: #154360;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Registration form container */
+.container {
+    width: 90%;
+    max-width: 1800px;
+    background-color: white;
+    padding-right: 5px;
+    padding-left:15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #cccccc;
+    box-sizing: border-box;
+    
+}
+
+/* Form heading */
+h2 {
+    text-align: center;
+    color: #154360;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Input fields, dropdowns and textarea */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #154360;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #2874a6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #555;
+}
+.poster-section {
+    position:relative;
+    bacground:#7460dc;
+    overflow:hidden;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right:-20px ;
+
+}
+.poster-section img {
+    width:100%;
+    object-fit:cover;
+    display:block; 
+}

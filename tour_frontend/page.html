@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Educational Tour Registration</title>
+
+    <link rel="stylesheet" href="pagestyle.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Educational Tour Registration</h1>
+        <p>Explore, Learn and Experience!</p>
+    </header>
+
+    <div class="container">
+        <div class="poster-section">
+            <img src="education-tour-poster.png" alt="Educational Tour Poster">
+            <div class="poster-overlay">
+                <h2>Explore.learn.grow</h2>
+            </div>
+        </div>
+        <h2>Student Registration Form</h2>
+        <form action="" id ="studentForm">
+
+            <label for="name">Student Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your full name" required>
+
+            <label for="roll">Roll Number</label>
+            <input type="text" id="registerNumber" name="registerNumber"
+                   placeholder="Enter your roll number" required>
+
+            <label for="department">Department</label>
+            <select id="department" name="department" required>
+                <option value="">Select Department</option>
+                <option>CSE</option>
+                <option>IT</option>
+                <option>Cyber Security</option>
+                <option>ECE</option>
+                <option>EEE</option>
+                <option>Mechanical</option>
+                <option>Civil</option>
+            </select>
+
+            <label for="">Year of Study</label>
+            <select id="year" name="" required>
+                <option value="">Select Year</option>
+                <option value="1st year">First Year</option>
+                <option value="2nd year">Second Year</option>
+                <option value="3rd year">Third Year</option>
+                <option value="4th year">Final Year</option>
+            </select>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone"
+                   pattern="[0-9]{10}"
+                   placeholder="Enter 10-digit phone number" required>
+
+            <label for="destination">Tour Destination</label>
+            <select id="destination" name="destination" required>
+                <option value="">Select Destination</option>
+                <option value="bangalore">Bangalore - IT Companies</option>
+                <option value="chennai">Chennai - Industrial Visit</option>
+                <option value="mysore">Mysore - Science and Technology</option>
+                <option value="hyderabad">Hyderabad - Technology Park</option>
+            </select>
+
+            <label for="date">Tour Date</label>
+            <input type="date" id="date" name="date" required>
+
+
+            <button type="submit">Register Now</button>
+
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Educational Tour Registration System</p>
+    </footer>
+    <script src="pagejavascript.js"></script>
+</body>
+</html>
